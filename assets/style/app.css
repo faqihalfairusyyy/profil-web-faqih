@@ -42,22 +42,22 @@ padding-top: 20px;
 }
 .Skill {
 padding-top: 50px;
-    
-    
-
 }
 .Skill .card {
   min-height: 340px;
+    box-sizing: border-box;
 }
 @media (max-width: 767px) {
   .Skill .card {
     min-height: unset;
   }
+    .Skill .row {
+        justify-content: center;
 .footer {
   background-color: #fffeff; 
     padding-bottom: 50px;
-
 }
+
 
 
 
